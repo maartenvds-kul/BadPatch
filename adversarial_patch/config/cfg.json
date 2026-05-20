@@ -8,7 +8,7 @@
     "log_dir": "runs/train_adversarial",
     "tensorboard_batch_log_interval": 15,
     "weights_file": "checkpoint/yolov5s.pt",
-    "model_path": "checkpoint/stable-diffusion-v1-4",
+    "model_path": "CompVis/stable-diffusion-v1-4",
     "now_patch_path": "outputs/cc.jpg",
     "now_cropped_path": "outputs/cc_cropped.jpg",
     "image_path": "test_patch/cc/cc.jpg",

@@ -1,0 +1,12 @@
+opencv-python-headless
+torch==2.5.0
+torchvision
+#transformers
+ultralytics
+transformers
+diffusers
+TensorBoardX
+pandas
+easydict
+pycocotools
+seaborn

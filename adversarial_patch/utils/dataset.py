@@ -55,7 +55,7 @@ class YOLODataset(Dataset):
             image_paths = [p for p in image_paths if int(osp.splitext(p)[0][-1]) % 2 == rem]
             label_paths = [p for p in label_paths if int(osp.splitext(p)[0][-1]) % 2 == rem]
         assert len(image_paths) == len(
-            label_paths), "Number of images and number of labels don't match"
+            label_paths), f"Number of images and number of labels don't match, {len(image_paths)} vs {len(label_paths)}"
         # all corresponding image and labels must exist
         for img, lab in zip(image_paths, label_paths):
             if osp.basename(img).split('.')[0] != osp.basename(lab).split('.')[0]:

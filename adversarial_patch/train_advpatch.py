@@ -16,7 +16,7 @@ from torch.cuda.amp import autocast
 from PIL import Image
 from tqdm import tqdm
 from diffusers import DDIMScheduler, StableDiffusionPipeline
-from transformers import CLIPImageProcessor, CLIPModel, CLIPTokenizer
+#from transformers import CLIPImageProcessor, CLIPModel, CLIPTokenizer
 from models.common import DetectMultiBackend
 from test_patch import PatchTester
 from utils.common import IMG_EXTNS, pad_to_square
